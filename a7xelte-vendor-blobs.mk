@@ -22,7 +22,7 @@ LOCAL_PATH := vendor/samsung/a7xelte
 ##########################
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43454_V0147.0245.hcd:system/vendor/firmware/bcm43454_V0147.0245.hcd
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43454_V0161.0287.hcd:system/vendor/firmware/bcm43454_V0161.0287.hcd
 
 ###########################
 # Camera
@@ -134,12 +134,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_FD:system/etc/wifi/nvram_mfg.txt_FD \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_FD:system/etc/wifi/nvram_net.txt_FD \
     $(LOCAL_PATH)/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw \
     $(LOCAL_PATH)/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
-    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     $(LOCAL_PATH)/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     $(LOCAL_PATH)/proprietary/etc/srm.bin:system/etc/srm.bin
@@ -150,7 +148,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/sec_s3fwrn5s_rfreg.bin:system/etc/sec_s3fwrn5s_rfreg.bin \
-    $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.vendor.universal7580.so:system/lib/hw/nfc_nci.vendor.universal7580.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.universal7580.so:system/lib/hw/nfc_nci.universal7580.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/sec_s3fwrn5s_firmware.bin:system/vendor/firmware/sec_s3fwrn5s_firmware.bin
 
 ###########################
