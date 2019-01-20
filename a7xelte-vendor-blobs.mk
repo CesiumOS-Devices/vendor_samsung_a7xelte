@@ -134,6 +134,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_FD:system/etc/wifi/nvram_mfg.txt_FD \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_FD:system/etc/wifi/nvram_net.txt_FD \
     $(LOCAL_PATH)/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw \
     $(LOCAL_PATH)/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
